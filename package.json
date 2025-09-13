@@ -1,0 +1,36 @@
+{
+  "name": "botbinance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot_agressivo.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@binance/connector": "^3.6.1",
+    "@tensorflow/tfjs": "^4.22.0",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "brain.js": "^2.0.0-beta.24",
+    "ccxt": "^4.4.97",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.6.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "node-addon-api": "^8.4.0",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^7.0.5",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "synaptic": "^1.1.4",
+    "url": "^0.11.4",
+    "ws": "^8.18.3"
+  }
+}
